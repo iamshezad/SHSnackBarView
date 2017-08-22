@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.author             = { "iamShezad" => "shezadahamed95@gmail.com" }
 
-  s.source       = { :git => "https://github.com/iamshezad/SHSnackBarView.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/iamshezad/SHSnackBarView.git", :tag => "1.0.0" }
 
   s.source_files  = "SHSnackBarView/*.{swift,h,m}",
 
