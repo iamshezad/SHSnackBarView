@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAction(_ sender: UIButton) {
-        let snackbarBgColor = UIColor(white: 1.0, alpha: 0.5)
+        let snackbarBgColor = UIColor(red: 32.0/255.0, green: 130.0/255.0, blue: 59.0/255.0, alpha: 1.0)
         snackbarView.showSnackBar(view: self.view, bgColor: snackbarBgColor, text: "This is a snackbar view", textColor: UIColor.white, interval: 2)
     }
 

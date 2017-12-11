@@ -13,23 +13,15 @@
 		022149F51F4C0FFE00DC797B /* Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 022149F31F4C0FFE00DC797B /* Example.xcdatamodeld */; };
 		022149F71F4C0FFF00DC797B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022149F61F4C0FFF00DC797B /* Assets.xcassets */; };
 		022149FA1F4C0FFF00DC797B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022149F81F4C0FFF00DC797B /* LaunchScreen.storyboard */; };
-		02214A071F4C10F000DC797B /* SHSnackBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02214A061F4C100F00DC797B /* SHSnackBarView.framework */; };
-		02214A081F4C10F000DC797B /* SHSnackBarView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 02214A061F4C100F00DC797B /* SHSnackBarView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		02ADD5891FD0001200D6C65B /* SHSnackBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02ADD5871FCFFFFB00D6C65B /* SHSnackBarView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02214A051F4C100F00DC797B /* PBXContainerItemProxy */ = {
+		02ADD5861FCFFFFB00D6C65B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 02214A011F4C100F00DC797B /* SHSnackBarView.xcodeproj */;
+			containerPortal = 02ADD5821FCFFFFB00D6C65B /* SHSnackBarView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 0221495A1F4BF56C00DC797B;
-			remoteInfo = SHSnackBarView;
-		};
-		02214A091F4C10F000DC797B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02214A011F4C100F00DC797B /* SHSnackBarView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 022149591F4BF56C00DC797B;
 			remoteInfo = SHSnackBarView;
 		};
 /* End PBXContainerItemProxy section */
@@ -41,7 +33,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				02214A081F4C10F000DC797B /* SHSnackBarView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +48,7 @@
 		022149F61F4C0FFF00DC797B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022149F91F4C0FFF00DC797B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		022149FB1F4C0FFF00DC797B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02214A011F4C100F00DC797B /* SHSnackBarView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SHSnackBarView.xcodeproj; path = ../SHSnackBarView/SHSnackBarView.xcodeproj; sourceTree = "<group>"; };
+		02ADD5821FCFFFFB00D6C65B /* SHSnackBarView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SHSnackBarView.xcodeproj; path = ../SHSnackBarView.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02214A071F4C10F000DC797B /* SHSnackBarView.framework in Frameworks */,
+				02ADD5891FD0001200D6C65B /* SHSnackBarView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +66,10 @@
 		022149E01F4C0FFE00DC797B = {
 			isa = PBXGroup;
 			children = (
-				02214A011F4C100F00DC797B /* SHSnackBarView.xcodeproj */,
+				02ADD5821FCFFFFB00D6C65B /* SHSnackBarView.xcodeproj */,
 				022149EB1F4C0FFE00DC797B /* Example */,
 				022149EA1F4C0FFE00DC797B /* Products */,
+				02ADD5881FD0001200D6C65B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +95,19 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		02214A021F4C100F00DC797B /* Products */ = {
+		02ADD5831FCFFFFB00D6C65B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02214A061F4C100F00DC797B /* SHSnackBarView.framework */,
+				02ADD5871FCFFFFB00D6C65B /* SHSnackBarView.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		02ADD5881FD0001200D6C65B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +125,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				02214A0A1F4C10F000DC797B /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -162,8 +160,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 02214A021F4C100F00DC797B /* Products */;
-					ProjectRef = 02214A011F4C100F00DC797B /* SHSnackBarView.xcodeproj */;
+					ProductGroup = 02ADD5831FCFFFFB00D6C65B /* Products */;
+					ProjectRef = 02ADD5821FCFFFFB00D6C65B /* SHSnackBarView.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -174,11 +172,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		02214A061F4C100F00DC797B /* SHSnackBarView.framework */ = {
+		02ADD5871FCFFFFB00D6C65B /* SHSnackBarView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SHSnackBarView.framework;
-			remoteRef = 02214A051F4C100F00DC797B /* PBXContainerItemProxy */;
+			remoteRef = 02ADD5861FCFFFFB00D6C65B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -208,14 +206,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		02214A0A1F4C10F000DC797B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SHSnackBarView;
-			targetProxy = 02214A091F4C10F000DC797B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		022149F01F4C0FFE00DC797B /* Main.storyboard */ = {
@@ -377,6 +367,7 @@
 				02214A001F4C0FFF00DC797B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
