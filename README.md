@@ -2,12 +2,11 @@
 
 # SHSnackBarView
 
-![Version](https://img.shields.io/cocoapods/v/SHSnackBarView.svg?style=flat)](https://cocoapods.org/pods/SHSnackBarView)
+[![Version](https://img.shields.io/cocoapods/v/SHSnackBarView.svg?style=flat)](https://cocoapods.org/pods/SHSnackBarView)
 [![Cocoapods](http://img.shields.io/badge/Cocoapods-available-green.svg?style=flat)](https://cocoapods.org/pods/SHSnackBarView)
 [![Swift 4.0](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-ios-blue.svg?style=flat)](https://cocoapods.org/pods/SHSnackBarView)
-[![Star](https://img.shields.io/amo/stars/dustman.svg?style=flat)]()
 
 <img src="/Screenshots/Snackbar.gif" />
 
